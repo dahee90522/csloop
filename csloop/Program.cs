@@ -17,6 +17,16 @@ namespace csloop
                 count++;
             }
             Console.WriteLine(count + "만큼 반복함");
+            String[] array = { "사과", "배", "포도", "딸기" };
+            foreach(String item in array)
+            {
+                Console.WriteLine(item);
+            }
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }
         }
+
     }
 }
